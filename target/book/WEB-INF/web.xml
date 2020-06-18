@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd"> -->
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+<!-- </web-app>
+<web-app> -->
+ <display-name>Archetype Created Web Application</display-name>
+ <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>books.LoginServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>queryservlet</servlet-name>
+  <servlet-class>books.queryservlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <!--这里的Servlet-name需要和前面的一样 -->
+  <servlet-name>LoginServlet</servlet-name>
+  <!--这里是访问Servlet资源位置,默认命名规范： 就是该Servlet的名字 -->
+  <url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>queryservlet</servlet-name>
+  <url-pattern>/queryservlet</url-pattern>
+ </servlet-mapping>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

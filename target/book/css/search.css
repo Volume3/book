@@ -1,0 +1,51 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}*/
+
+.jumbotron {
+	padding: 35px;
+	height: 230px;
+/*	background-color: #293a80;*/
+}
+
+.jumbotron h2{
+	padding-bottom: 20px;
+}
+
+.row h4{
+	color: #537ec5;
+	padding-bottom: 6px;
+}
+
+.row li{
+	list-style: none;
+	padding-bottom: 3px;
+}
+
+.row ul{
+	padding-left: 0px;
+}
+
+#hotclass span{
+	color: #f39422;
+}
+
+.jumbotron button{
+	background-color: #537ec5;
+	color: white;
+}
+
+/*#details{
+	background-color: #537ec5;
+	color: white;
+}*/
+
+/*#details{
+	background-color: #EEEEEE;
+}*/
+

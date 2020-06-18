@@ -1,0 +1,44 @@
+#searcharea button{
+	background-color: #537ec5;
+	color: white;
+	margin-bottom: 20px;
+/*	font-size: 15px;*/
+}
+
+.jumbotron h2{
+	padding-bottom: 20px;
+}
+
+td img{
+	width: 80px;
+	margin-top: 8px;
+}
+
+th+td span:first-child{
+	font-size: 20px;
+/*	color: #f39422;*/
+}
+
+#author{
+	padding-top: 30px;
+}
+
+#author div{
+	font-size: 14px;
+	padding-bottom: 6px;
+	color: #A2A2A2;
+}
+
+#author a{
+	font-size: 14px;
+	padding-top: 15px;
+}
+
+#searchresult{
+	position: relative;
+	left: 5px;
+}
+
+th{
+	font-size: 20px;
+}
